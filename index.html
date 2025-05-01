@@ -9,7 +9,7 @@
     body {
       margin: 0;
       font-family: 'Montserrat', sans-serif;
-      background-color: #0d0d0d;
+      background-color: #000000;
       color: #f5f5f5;
       display: flex;
       flex-direction: column;
@@ -38,6 +38,8 @@
       justify-content: center;
       gap: 2rem;
       margin-bottom: 4rem;
+      width: 100%;
+      max-width: 1200px;
     }
 
     .card {
@@ -62,6 +64,26 @@
 
     .card p {
       color: #ccc;
+    }
+
+    .section-header {
+      width: 100%;
+      text-align: center;
+      margin: 3rem 0 2rem;
+    }
+
+    .section-header h2 {
+      font-size: 2rem;
+      border-bottom: 2px solid #00ffcc;
+      display: inline-block;
+      padding-bottom: 0.5rem;
+      margin: 0;
+    }
+
+    .section-header .tagline {
+      color: #999;
+      margin-top: 0.5rem;
+      font-size: 1rem;
     }
 
     .cv-section {
@@ -117,23 +139,78 @@
     </a>
     <a href="temporada3.html" class="card">
       <h3>Temporada 3</h3>
-      <p>En esta temporada de Neurona Errante, celebramos el poder y la pasión de las mujeres en la ciencia. Desde la física hasta la biotecnología, exploramos sus historias, logros y cómo están transformando el conocimiento desde cada rincón del planeta.</p>
+      <p>En esta temporada de Neurona Errante, celebramos el poder y la pasión de las mujeres en la ciencia...</p>
     </a>
   </section>
 
-  <section class="cv-section">
-    <h2>Equipo</h2>
-    <p>Aquí puedes explorar los perfiles de cada integrante del proyecto:</p>
-    <ul>
-      <li><a href="ivan.html" class="cv-link"><strong>Iván P. Urbano</strong></a> – Fundador y anfitrión. Físico, divulgador, creativo digital, programador, el alpha y el omega.</li>
-      <li><a href="integrante2.html" class="cv-link"><strong>Mabelein</strong></a> – La dura del chisme </li>
-      <li><a href="integrante3.html" class="cv-link"><strong>Bárbara</strong></a> – Que barbaridad</li>
-    </ul>
-  </section>
+  <!-- Encabezado para sección de equipo -->
+<!-- Encabezado para sección de equipo -->
+<div class="section-header">
+  <h2>Equipo</h2>
+  <p class="tagline">Juntos, traducimos la ciencia en historias que conectan mentes y despiertan curiosidad.</p>
+</div>
+
+<section class="cards">
+  <a href="#" class="card">
+    <img src="img/juan.jpg" alt="Juan S. Rojas" class="card-img"/>
+    <h3>Juan S. Rojas</h3>
+    <p>Físico.</p>
+  </a>
+  <a href="#" class="card">
+    <img src="img/belen.jpg" alt="María Belen Terán" class="card-img"/>
+    <h3>María Belen Terán</h3>
+    <p>Biomédica.</p>
+  </a>
+  <a href="#" class="card">
+    <img src="img/barbara.jpg" alt="Bárbara Quinchiqui" class="card-img"/>
+    <h3>Bárbara Quinchiqui</h3>
+    <p>Economista en formación.</p>
+  </a>
+  <a href="#" class="card">
+    <img src="img/ivan.jpg" alt="Iván P. Urbano" class="card-img"/>
+    <h3>Iván P. Urbano</h3>
+    <p>Físico.</p>
+  </a>
+  <a href="#" class="card">
+    <img src="img/evelyn.jpg" alt="Evelyn Cachiguango" class="card-img"/>
+    <h3>Evelyn Cachiguango</h3>
+    <p>Médico.</p>
+  </a>
+  <a href="#" class="card">
+    <img src="img/angie_davila.jpg" alt="Angie Dávila" class="card-img"/>
+    <h3>Angie Dávila</h3>
+    <p>Física.</p>
+  </a>
+  <a href="#" class="card">
+    <img src="img/diana.jpg" alt="Diana Ontaneda" class="card-img"/>
+    <h3>Diana Ontaneda</h3>
+    <p>Ni idea.</p>
+  </a>
+  <a href="#" class="card">
+    <img src="img/angie_inga.jpg" alt="Angie Inga" class="card-img"/>
+    <h3>Angie Inga</h3>
+    <p>Guionista creativa de los episodios.</p>
+  </a>
+  <a href="#" class="card">
+    <img src="img/nayeli.jpg" alt="Nayeli Jaramillo" class="card-img"/>
+    <h3>Nayeli Jaramillo</h3>
+    <p>Geóloga en formación.</p>
+  </a>
+  <a href="#" class="card">
+    <img src="img/sebastian.jpg" alt="Sebastian Navarrete" class="card-img"/>
+    <h3>Sebastian Navarrete</h3>
+    <p>Físico.</p>
+  </a>
+  <a href="#" class="card">
+    <img src="img/jordan.jpg" alt="Jordan Zambrano" class="card-img"/>
+    <h3>Jordan Zambrano</h3>
+    <p>Físico.</p>
+  </a>
+</section>
+
 
   <footer>
     &copy; 2025 Neurona Errante. Todos los derechos reservados.
   </footer>
 </body>
 </html>
-
