@@ -310,4 +310,48 @@ button:hover {
   color: #00ffcc;
 }
 
+/* Estilos para las redes sociales flotantes */
+.social-media {
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  z-index: 100; /* Asegura que los iconos estén por encima de otros elementos */
+}
+
+.social-icon {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0.8rem;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  background-color: #00ffcc;
+}
+
+/* Estilos para cada red social */
+.social-icon.facebook {
+  background-color: #3b5998; /* Color de fondo de Facebook */
+}
+
+.social-icon.twitter {
+  background-color: #1DA1F2; /* Color de fondo de Twitter */
+}
+
+.social-icon.instagram {
+  background-color: #E1306C; /* Color de fondo de Instagram */
+}
+
+.podcast-player {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+  max-width: 800px;
+}
 
