@@ -340,12 +340,16 @@ button:hover {
   background-color: #3b5998; /* Color de fondo de Facebook */
 }
 
-.social-icon.twitter {
-  background-color: #1DA1F2; /* Color de fondo de Twitter */
+.social-icon.tiktok {
+  background-color: #000000; /* Color de fondo de Twitter */
 }
 
 .social-icon.instagram {
   background-color: #E1306C; /* Color de fondo de Instagram */
+}
+
+.social-icon.youtube {
+  background-color: #ff0000; /* Color de fondo de Instagram */
 }
 
 .podcast-player {
@@ -355,3 +359,24 @@ button:hover {
   max-width: 800px;
 }
 
+.flecha {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 0.5em;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 1.5em;
+  border-radius: 50%;
+}
+
+.flecha.izquierda {
+  left: 0.5em;
+}
+
+.flecha.derecha {
+  right: 0.5em;
+}
