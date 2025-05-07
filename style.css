@@ -35,45 +35,7 @@ h1 {
 p.slogan {
   font-style: italic;
   color: #666;
-}
-/*prueba*/
-.episodios {
-  display: flex;
-  overflow-x: auto;
-  gap: 1rem;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  padding: 1rem;
-}
-
-.episodio {
-  flex: 0 0 85%;
-  scroll-snap-align: start;
-  background: #f4f4f4;
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  min-width: 250px;
-}
-
-/* Estilos para escritorio */
-@media (min-width: 768px) {
-  .episodios {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
-    overflow-x: unset;
-    scroll-snap-type: none;
-  }
-
-  .episodio {
-    flex: unset;
-    min-width: unset;
-  }
-}
-
-/*fin prueba*/
-/* ===== SECCIÓN TARJETAS DE EPISODIOS ===== */
+}/* ===== SECCIÓN TARJETAS DE EPISODIOS ===== */
 .carousel-container {
   width: 100%;
   overflow: visible;
@@ -89,7 +51,7 @@ p.slogan {
   gap: 2rem;
   will-change: transform;
 }
-/*
+
 .episodio {
   width: 300px;
   height: 420px;
@@ -106,8 +68,7 @@ p.slogan {
   opacity: 0.3;
   transform: scale(0.9);
   z-index: 1;
-}*/
-
+}
 .episodio.active {
   opacity: 1;
   transform: scale(1.15);
