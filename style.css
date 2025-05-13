@@ -377,3 +377,14 @@ button:hover {
 .flecha.derecha {
   right: 0.5em;
 }
+
+
+#neuron-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background: #ffffff; /* Puedes ponerlo transparente o usar otro color */
+}
